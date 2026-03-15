@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Cyber Ticket NLP Pipeline
 
 A small NLP project to classify synthetic cybersecurity incident tickets and extract simple entities from text.
@@ -23,3 +24,6 @@ source .venv/bin/activate
 pip install -r requirements.txt
 python main.py
 ```
+=======
+# cyber-ticket-nlp-pipeline
+>>>>>>> 2fb9d889a5e8e0be49643a80798b8167ca4f4474
