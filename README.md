@@ -12,7 +12,8 @@ L'objectif est de transformer des textes non structurés décrivant des incident
 - Génération d'un rapport simple d'évaluation
 
 ## Structure du projet
-```cyber-ticket-nlp-pipeline/
+```text
+cyber-ticket-nlp-pipeline/
 │
 ├── main.py
 ├── requirements.txt
