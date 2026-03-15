@@ -3,3 +3,4 @@ __pycache__/
 *.pyc
 results/*.csv
 results/*.json
+.DS_Store
