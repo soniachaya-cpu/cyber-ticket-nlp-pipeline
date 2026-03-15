@@ -1,29 +1,50 @@
-<<<<<<< HEAD
 # Cyber Ticket NLP Pipeline
 
-A small NLP project to classify synthetic cybersecurity incident tickets and extract simple entities from text.
+Ce projet présente un pipeline simple de traitement du langage naturel (NLP) appliqué à l'analyse de tickets d'incidents en cybersécurité.
 
-## Features
-- Text preprocessing
-- Rule-based entity extraction (severity, attack type, system, tool)
-- Baseline ticket classification with scikit-learn
-- Simple evaluation report
+L'objectif est de transformer des textes non structurés décrivant des incidents en informations exploitables grâce à des techniques de prétraitement, d'extraction d'entités et de classification.
 
-## Project structure
-- `main.py`: run the full pipeline
-- `src/preprocessing.py`: clean and prepare text
-- `src/entity_extraction.py`: extract entities with regex rules
-- `src/classification.py`: train and evaluate classifier
-- `data/cyber_tickets.csv`: synthetic dataset
-- `results/`: generated outputs
+## Fonctionnalités
 
-## Quick start
-```bash
-python3 -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-python main.py
-```
-=======
-# cyber-ticket-nlp-pipeline
->>>>>>> 2fb9d889a5e8e0be49643a80798b8167ca4f4474
+- Prétraitement des textes (nettoyage et normalisation)
+- Extraction d'entités basée sur des règles (niveau de sévérité, type d'attaque, système concerné, outil)
+- Classification de tickets avec un modèle baseline utilisant scikit-learn
+- Génération d'un rapport simple d'évaluation
+
+## Structure du projet
+cyber-ticket-nlp-pipeline/
+│
+├── main.py
+├── requirements.txt
+├── README.md
+│
+├── data/
+│ └── cyber_tickets.csv
+│
+├── src/
+│ ├── preprocessing.py
+│ ├── entity_extraction.py
+│ └── classification.py
+│
+└── results/
+
+
+### Description des composants
+
+- **main.py**  
+  Lance l'ensemble du pipeline NLP.
+
+- **src/preprocessing.py**  
+  Nettoyage et préparation des données textuelles.
+
+- **src/entity_extraction.py**  
+  Extraction d'entités simples à l'aide de règles et d'expressions régulières.
+
+- **src/classification.py**  
+  Entraînement et évaluation d'un modèle de classification de tickets.
+
+- **data/cyber_tickets.csv**  
+  Dataset synthétique utilisé pour la démonstration.
+
+- **results/**  
+  Dossier contenant les résultats générés (métriques et entités extraites).
