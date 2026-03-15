@@ -12,6 +12,7 @@ L'objectif est de transformer des textes non structurés décrivant des incident
 - Génération d'un rapport simple d'évaluation
 
 ## Structure du projet
+
 ```text
 cyber-ticket-nlp-pipeline/
 │
@@ -20,18 +21,17 @@ cyber-ticket-nlp-pipeline/
 ├── README.md
 │
 ├── data/
-│ └── cyber_tickets.csv
+│   └── cyber_tickets.csv
 │
 ├── src/
-│ ├── preprocessing.py
-│ ├── entity_extraction.py
-│ └── classification.py
+│   ├── preprocessing.py
+│   ├── entity_extraction.py
+│   └── classification.py
 │
 └── results/
+```
 
-
-
-### Description des composants
+## Description des composants
 
 - **main.py**  
   Lance l'ensemble du pipeline NLP.
@@ -44,9 +44,3 @@ cyber-ticket-nlp-pipeline/
 
 - **src/classification.py**  
   Entraînement et évaluation d'un modèle de classification de tickets.
-
-- **data/cyber_tickets.csv**  
-  Dataset synthétique utilisé pour la démonstration.
-
-- **results/**  
-  Dossier contenant les résultats générés (métriques et entités extraites).
