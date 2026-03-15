@@ -1,0 +1,13 @@
+ticket_id,ticket_text,label
+T001,Employee reported a phishing email in Outlook asking to reset password. Severity high. Microsoft 365 affected.,phishing
+T002,Suspicious login detected on VPN account after multiple failed password attempts. Severity critical. Okta alert.,credential_access
+T003,Laptop infected with malware after downloading an unknown attachment. Severity high. CrowdStrike detected.,malware
+T004,Database server shows unusual outbound traffic and suspicious processes. Severity critical. AWS instance impacted.,suspicious_activity
+T005,User received phishing message pretending to be HR through email. Severity medium. Outlook mailbox targeted.,phishing
+T006,Firewall logs indicate unusual traffic from a workstation to an external IP. Severity high.,suspicious_activity
+T007,Ransomware note found on shared server folder. Severity critical. Server unavailable.,malware
+T008,Multiple failed login attempts on Microsoft 365 admin account. Severity high. Possible credential theft.,credential_access
+T009,Unknown executable detected on desktop and classified as malware. Severity medium.,malware
+T010,Employee clicked suspicious link in email and was redirected to fake login page. Severity medium.,phishing
+T011,Okta reported impossible travel and unusual authentication pattern. Severity high.,credential_access
+T012,SIEM alert: suspicious PowerShell execution on workstation. Severity high.,suspicious_activity
